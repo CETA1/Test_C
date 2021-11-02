@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main()//找一组数中的最大值
+int main()//找最大值
 {
     int arr[]={1,2,3,4,5,6,7,8,9,10};
     int max=arr[0],i;
