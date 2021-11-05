@@ -18,6 +18,16 @@ int my_strlen(char* str)//递归
         return 0;
 
 }
+int my_strlen1(char* str)
+{
+    char* start =str;
+    char* end =str;
+    while(*end!='\0')
+    {
+        end++;
+    }
+    return end-start;
+}
 
 int main()//模拟的strlen函数
 {
