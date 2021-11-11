@@ -13,7 +13,7 @@ void My_Strcpy(char* dest,char* src)
 
 }
 //优化
-void My_Strcpy1(char* dest,char* src)
+void My_Strcpy1(char* dest,const char* src)
 {
     while (*dest++ = *src++)
     {
