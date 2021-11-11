@@ -37,4 +37,5 @@ int main()//模拟的strlen函数
     int len = my_strlen(arr);//首元素的地址
     printf("%d\n",len);
     return 0;
+    
 }
