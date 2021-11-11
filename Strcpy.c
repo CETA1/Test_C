@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <string.h>
-//模拟实现Strcpy
 void My_Strcpy(char* dest,char* src)
 {
     while (*src != '\0')
@@ -33,4 +32,5 @@ int main()
     My_Strcpy1(arr1,arr2);
     printf("%s\n",arr1);
     return 0;
+    
 }
