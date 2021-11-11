@@ -12,6 +12,16 @@ void My_Strcpy(char* dest,char* src)
     *dest = *src;
 
 }
+//优化
+void My_Strcpy1(char* dest,char* src)
+{
+    while (*dest++ = *src++)
+    {
+        ;
+    }
+
+}
+
 int main()
 {
     char arr1[]="hhhhhhhhhhhh";
@@ -19,6 +29,8 @@ int main()
     strcpy(arr1,arr2);
     printf("%s\n",arr1);
     My_Strcpy(arr1,arr2);
+    printf("%s\n",arr1);
+    My_Strcpy1(arr1,arr2);
     printf("%s\n",arr1);
     return 0;
 }
