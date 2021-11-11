@@ -9,7 +9,6 @@ void print(int n)//拆分每一位并打印
     printf("%d \n",n%10);
   
 }
-
 int main()
 {
 
